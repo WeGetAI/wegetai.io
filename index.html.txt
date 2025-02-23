@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Business Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Description for SEO -->
+    <meta name="description" content="Providing top-notch communications and handyman services for law firms and doctors' offices in Manhattan.">
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <h1>Your Business Name</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Reliable Communications & Handyman Services</h2>
+            <p>Serving Manhattan's law firms and doctors' offices with unmatched expertise and speed.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service-item">
+                <h3>Initial Consultation</h3>
+                <p>Understanding your needs to provide tailored solutions.</p>
+            </div>
+            <div class="service-item">
+                <h3>Feasibility Study</h3>
+                <p>Assessing project viability with strategic insights.</p>
+            </div>
+            <div class="service-item">
+                <h3>Scope and Planning</h3>
+                <p>Defining project parameters for optimal outcomes.</p>
+            </div>
+            <div class="service-item">
+                <h3>Risk Assessment</h3>
+                <p>Identifying and mitigating potential challenges.</p>
+            </div>
+            <div class="service-item">
+                <h3>Client Communications</h3>
+                <p>Ensuring clear and consistent communication throughout.</p>
+            </div>
+            <div class="service-item">
+                <h3>ROI Service</h3>
+                <p>Maximizing your return on investment with efficient solutions.</p>
+            </div>
+            <div class="service-item">
+                <h3>Third-Party Vendor Collaboration</h3>
+                <p>Seamless integration with internet and cloud service providers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>With over 30 years in the communications business, we understand the fast-paced needs of Manhattan's professional landscape. We're quick, reliable, and available whenever our clients need us.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>Coming soon! We'll share what our satisfied clients have to say about our services.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to experience top-tier service? Reach out to us through any of the methods below.</p>
+        <div class="contact-options">
+            <div class="contact-item">
+                <h3>Call Us</h3>
+                <p><a href="tel:+11234567890">+1 (123) 456-7890</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>Email Us</h3>
+                <p><a href="mailto:info@yourbusiness.com">info@yourbusiness.com</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>Visit Us</h3>
+                <p>123 Manhattan Ave, New York, NY</p>
+            </div>
+        </div>
+        <!-- Contact Form -->
+        <form action="#" method="post" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="How can we help you?" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Social Media Links -->
+    <footer>
+        <div class="social-media">
+            <a href="#" target="_blank"><img src="icons/facebook.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="icons/twitter.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            <a href="#" target="_blank"><img src="icons/instagram.png" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2023 Your Business Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Map Embed -->
+    <section id="map">
+        <h2>Our Service Area</h2>
+        <p>Proudly serving all of Manhattan.</p>
+        <!-- Google Maps Embed -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Manhattan,NY" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <!-- Google Analytics -->
+    <!-- Replace 'UA-XXXXX-Y' with your own Tracking ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-XXXXX-Y');
+    </script>
+</body>
+</html>
